@@ -1,0 +1,40 @@
+[INFO]: no --solution-settings is specified.
+[INFO] use UUID 00ef538e88634ddd9810d034b748c24d to reproduce the experiment results.
+[INFO]: 1-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 10, 12, 20, 34, 62, 58, 12, 12, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8]] 'suggest' time: 0.0005397796630859375.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 10, 12, 20, 34, 62, 58, 12, 12, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8], norm. performance: 1.2081893752451849, norm. power: 0.3200028674040006, norm. area: 2.4648734266354295, time of the VLSI flow: 36348.96958.
+[INFO]: summary for 1-th query, current ADRS: 5.46570702160106 cost: 36348.971753423764.
+[INFO]: 2-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 30, 52, 48, 8, 8, 32, 4, 1, 16, 64, 4, 1, 2, 1, 8]] 'suggest' time: 0.0004324913024902344.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 30, 52, 48, 8, 8, 32, 4, 1, 16, 64, 4, 1, 2, 1, 8], norm. performance: 1.134482845867045, norm. power: 0.3200028674040006, norm. area: -1.185937179516446, time of the VLSI flow: 29941.53555.
+[INFO]: summary for 2-th query, current ADRS: 3.019064619260676 cost: 66290.50929564942.
+[INFO]: 3-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 8, 8, 16, 32, 52, 48, 6, 6, 64, 1, 1, 16, 64, 4, 0, 2, 1, 8]] 'suggest' time: 0.0004093647003173828.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 8, 8, 16, 32, 52, 48, 6, 6, 64, 1, 1, 16, 64, 4, 0, 2, 1, 8], norm. performance: -1.1756473424713725, norm. power: 0.3200028674040006, norm. area: -1.392852074627341, time of the VLSI flow: 31897.18847.
+[INFO]: summary for 3-th query, current ADRS: 2.63034490627401 cost: 98187.69970017776.
+[INFO]: 4-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 34, 42, 38, 12, 12, 64, 1, 1, 16, 64, 4, 0, 2, 1, 32]] 'suggest' time: 0.0004093647003173828.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 34, 42, 38, 12, 12, 64, 1, 1, 16, 64, 4, 0, 2, 1, 32], norm. performance: 1.2081893752451849, norm. power: 0.3200028674040006, norm. area: -0.6170685472594256, time of the VLSI flow: 33593.75742.
+[INFO]: summary for 4-th query, current ADRS: 2.63034490627401 cost: 131781.45906519654.
+[INFO]: 5-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 6, 6, 14, 32, 62, 58, 8, 8, 32, 8, 1, 32, 64, 4, 1, 2, 1, 8]] 'suggest' time: 0.00040984153747558594.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 6, 6, 14, 32, 62, 58, 8, 8, 32, 8, 1, 32, 64, 4, 1, 2, 1, 8], norm. performance: 0.8880099687851765, norm. power: 0.3200028674040006, norm. area: 0.7769138762437058, time of the VLSI flow: 33120.88159.
+[INFO]: summary for 5-th query, current ADRS: 2.63034490627401 cost: 164902.34260689103.
+[INFO]: 6-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 6, 1, 1, 6, 1, 1, 6, 10, 12, 20, 36, 52, 48, 12, 12, 32, 4, 1, 16, 64, 4, 0, 2, 1, 32]] 'suggest' time: 0.0004115104675292969.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 6, 1, 1, 6, 1, 1, 6, 10, 12, 20, 36, 52, 48, 12, 12, 32, 4, 1, 16, 64, 4, 0, 2, 1, 32], norm. performance: 1.2081893752451849, norm. power: 0.3200028674040006, norm. area: 0.1484637545746889, time of the VLSI flow: 32816.37196.
+[INFO]: summary for 6-th query, current ADRS: 2.63034490627401 cost: 197718.71652287705.
+[INFO]: 7-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 10, 12, 20, 36, 62, 58, 12, 12, 64, 4, 1, 32, 64, 4, 1, 2, 1, 8]] 'suggest' time: 0.00041413307189941406.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 10, 1, 1, 12, 1, 1, 12, 10, 12, 20, 36, 62, 58, 12, 12, 64, 4, 1, 32, 64, 4, 1, 2, 1, 8], norm. performance: 1.2081893752451849, norm. power: 0.3200028674040006, norm. area: 2.535831684162142, time of the VLSI flow: 36526.16201.
+[INFO]: summary for 7-th query, current ADRS: 2.63034490627401 cost: 234244.8804995919.
+[INFO]: 8-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 32, 62, 58, 6, 6, 32, 8, 1, 32, 64, 4, 1, 2, 1, 32]] 'suggest' time: 0.000415802001953125.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 32, 62, 58, 6, 6, 32, 8, 1, 32, 64, 4, 1, 2, 1, 32], norm. performance: 0.142096126138437, norm. power: 0.3200028674040006, norm. area: 0.2906723018065265, time of the VLSI flow: 33730.37672.
+[INFO]: summary for 8-th query, current ADRS: 2.63034490627401 cost: 267975.25918654515.
+[INFO]: 9-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 32, 42, 38, 8, 8, 32, 8, 1, 32, 64, 4, 0, 2, 1, 8]] 'suggest' time: 0.00041103363037109375.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 6, 6, 14, 32, 42, 38, 8, 8, 32, 8, 1, 32, 64, 4, 0, 2, 1, 8], norm. performance: -0.10993062735889406, norm. power: 0.3200028674040006, norm. area: -0.38089079918171376, time of the VLSI flow: 29997.03405.
+[INFO]: summary for 9-th query, current ADRS: 2.63034490627401 cost: 297972.29516630515.
+[INFO]: 10-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 32, 62, 58, 6, 6, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8]] 'suggest' time: 0.0004305839538574219.
+[INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 32, 62, 58, 6, 6, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8], norm. performance: -0.6874082632360001, norm. power: 0.3200028674040006, norm. area: 1.5413929028735947, time of the VLSI flow: 34834.94627.
+[INFO]: summary for 10-th query, current ADRS: 2.63034490627401 cost: 332807.2433782245.
+[INFO]: summary for the solution, the best ADRS: 2.63034490627401 cost: 332807.2433782245.
+[INFO]: save the experiment result. please refer them to /raid4/courses/alg2021f/alg21f107/eda/final/data/output_random/summary/00ef538e88634ddd9810d034b748c24d.rpt.
+INFO]: summary for 9-th query, current ADRS: 2.63034490627401 cost: 297972.29516630515.
+2022-06-14 17:59:02,848 [INFO]: 10-th query, next microarchitecture embeddings: [[4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 32, 62, 58, 6, 6, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8]] 'suggest' time: 0.0004305839538574219.
+2022-06-14 17:59:02,849 [INFO]: evaluate 1-th candidate in a batch, microarchitecture embedding: [4, 1, 1, 1, 8, 1, 1, 8, 1, 1, 8, 10, 12, 20, 32, 62, 58, 6, 6, 64, 4, 1, 32, 64, 4, 0, 2, 1, 8], norm. performance: -0.6874082632360001, norm. power: 0.3200028674040006, norm. area: 1.5413929028735947, time of the VLSI flow: 34834.94627.
+2022-06-14 17:59:02,850 [INFO]: summary for 10-th query, current ADRS: 2.63034490627401 cost: 332807.2433782245.
+2022-06-14 17:59:02,851 [INFO]: summary for the solution, the best ADRS: 2.63034490627401 cost: 332807.2433782245.
+2022-06-14 17:59:02,856 [INFO]: save the experiment result. please refer them to /raid4/courses/alg2021f/alg21f107/eda/final/data/output_random/summary/00ef538e88634ddd9810d034b748c24d.rpt.
