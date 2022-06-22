@@ -20,7 +20,7 @@ def cal_eipv(non_dominated_cell_list,predict_point):
     vol=0
     for cell in non_dominated_cell_list:
         if ((predict_point[0]>cell[0]) and (predict_point[1]>cell[1]) and (predict_point[2]>cell[2])):
-            vol+=(max(predict_point[0],cell[3])-cell[0])*(max(predict_point[1],cell[4])-cell[1])*(max(predict_point[2],cell[5])-cell[2])
+            vol+=(min(predict_point[0],cell[3])-cell[0])*(min(predict_point[1],cell[4])-cell[1])*(min(predict_point[2],cell[5])-cell[2])
             
             
     return vol
