@@ -1,6 +1,6 @@
 from operator import itemgetter
 import random
-from termios import VEOL
+
 from unittest.util import sorted_list_difference
 import torch
 import sklearn
@@ -12,6 +12,19 @@ from iccad_contest.design_space_exploration import experiment
 from iccad_contest.functions.problem import get_pareto_frontier
 import copy
 
+
+
+#new_chosed_point better be 1d array with length 3
+def renew_pareto_list(pareto_list,new_chosed_point):
+    cnt=0
+    
+    for pt in pareto_list:
+        if((pt[0]<=new_chosed_point[0]) and (pt[0]<=new_chosed_point[0]) and(pt[0]<=new_chosed_point[0])):
+            pareto_list=np.delete(pareto_list,cnt,0)
+        cnt+=1
+    pareto_list=np.vstack([pareto_list,np.array(new_chosed_point)])
+    return pareto_list
+    
 
 
 
@@ -192,7 +205,10 @@ if __name__ == "__main__" :
     # print(test_case)
     # print(cal_vol(test_case))
     # print("volume is\t",constructVolumn(test_case))
-    print(gen_non_dominated_cell(np.array([[1,2,2],[2,1,1]]),5))
+    tp=gen_non_dominated_cell(np.array([[1,1,1]]),5)
+    print(tp)
     
+    print(cal_eipv(tp,[2,2,2]))
+    print(renew_pareto_list(np.array([[1,1,1]]),[2,2,1]))
     pass
     
